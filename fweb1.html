@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peak Performance</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <h1>Peak Performance</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#workouts">Workouts</a></li>
+                    <li><a href="#progress">Progress</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to Peak Performance</h2>
+                <p>Your ultimate fitness tracking application. Log your workouts, track your progress, and achieve your fitness goals with ease.</p>
+                <a href="#workouts" class="btn">Get Started</a>
+            </div>
+        </section>
+    
+        <section id="workouts">
+            <div class="container">
+                <h2>Workout Log</h2>
+                <form id="workout-form" action="/add_workout" method="POST">
+                    <div>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div>
+                        <label for="exercise">Exercise:</label>
+                        <input type="text" id="exercise" name="exercise" required>
+                    </div>
+                    <div>
+                        <label for="duration">Duration (mins):</label>
+                        <input type="number" id="duration" name="duration" required>
+                    </div>
+                    <div>
+                        <label for="notes">Notes:</label>
+                        <textarea id="notes" name="notes"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Add Workout</button>
+                </form>
+                <div id="workouts-container"></div>
+            </div>
+        </section>
+    
+        <section id="progress">
+            <div class="container">
+                <h2>Track Your Progress</h2>
+                <p>View your workout history and analyze your progress over time.</p>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Peak Performance. All rights reserved.</p>
+            </div>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>    
+
+

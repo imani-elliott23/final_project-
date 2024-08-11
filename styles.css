@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav h1 {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+nav ul li a:hover {
+    background: #575757;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 0;
+}
+
+section#home {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+section#home h2 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+section#home p {
+    font-size: 1.2em;
+}
+
+section#home .btn {
+    display: inline-block;
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section#workouts {
+    background: #fff;
+}
+
+section#workouts h2 {
+    text-align: center;
+}
+
+section#workouts form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+section#workouts form div {
+    margin-bottom: 10px;
+}
+
+section#workouts form label {
+    display: block;
+}
+
+section#workouts form input, section#workouts form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+section#workouts form .btn {
+    display: block;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+section#workouts form .btn:hover {
+    background: #575757;
+}
+
+section#progress {
+    background: #e2e2e2;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Workout List */
+#workouts-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#workouts-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+#workouts-container li {
+    padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#workouts-container li:last-child {
+    border-bottom: none;
+}
+
+#workouts-container button {
+    float: right;
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#workouts-container button:hover {
+    background: #333;
+}
